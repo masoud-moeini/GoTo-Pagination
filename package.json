@@ -1,0 +1,45 @@
+{
+  "name": "goto-pagination",
+  "version": "0.1.4",
+  "description": "pagination for React",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Masoud Moeini",
+    "email": "hi@masoudmoeini.com"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-style": "copyfiles --flat src/*.scss dist",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline",
+    "scss": "node-sass --watch ./src -o ./dist"
+  },
+  "peerDependencies": {
+    "react": "^16.10.2"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Reactjs",
+    "component",
+    "pagination",
+    "GoToPagination"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "copyfiles": "^2.1.1",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "prop-types": "^15.7.2"
+  }
+}

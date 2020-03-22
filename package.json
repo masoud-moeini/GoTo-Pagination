@@ -16,6 +16,10 @@
     "prepublishOnly": "babel ./src --out-dir ./dist -s inline",
     "scss": "node-sass --watch ./src -o ./dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masoud-moeini/GoTo-Pagination.git"
+  },
   "peerDependencies": {
     "react": "^16.10.2"
   },

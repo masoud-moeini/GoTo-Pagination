@@ -1,6 +1,6 @@
 {
   "name": "goto-pagination",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "pagination for React",
   "main": "dist/index.js",
   "author": {
@@ -15,6 +15,10 @@
     "compile-style": "copyfiles --flat src/*.scss dist",
     "prepublishOnly": "babel ./src --out-dir ./dist -s inline",
     "scss": "node-sass --watch ./src -o ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masoud-moeini/GoTo-Pagination.git"
   },
   "peerDependencies": {
     "react": "^16.10.2"
@@ -39,7 +43,6 @@
     "style-loader": "^1.0.0"
   },
   "dependencies": {
-    "lodash": "^4.17.11",
     "prop-types": "^15.7.2"
   }
 }
